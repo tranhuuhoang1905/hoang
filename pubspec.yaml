@@ -1,0 +1,39 @@
+name: flutter_template
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0-406.0.dev <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  uuid: ^3.0.7
+  equatable: ^2.0.5
+  json_annotation: ^4.8.0
+
+  flutter_bloc: ^7.1.1
+  hydrated_bloc: ^7.1.0
+  path_provider: ^2.0.11
+
+  url_launcher: ^6.1.5
+  dynamic_color: ^1.5.2
+  flutter_material_color_picker: ^1.1.0+2
+  material_design_icons_flutter: ^5.0.6996
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+  build_runner: ^2.3.3
+  json_serializable: ^6.5.4
+
+flutter:
+  uses-material-design: true
